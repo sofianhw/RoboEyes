@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "RoboEyes"
+version = "0.1.0"
+description = "RoboEyes is a Python library that creates smoothly animated robot eyes for GUI displays."
+authors = ["Sofian Hadiwijaya <sofian@hadiwijaya.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
